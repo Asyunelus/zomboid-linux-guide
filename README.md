@@ -2,17 +2,25 @@
 
 
 ## Install
-1. run command
+1. run command (For package download)
 ```bash
+sudo apt-get install git
+git clone https://github.com/Asyunelus/zomboid-linux-guide.git
+cd zomboid-linux-guide
+```
+
+2. run command (For update permission, adduser pzuser, move file)
+```bash
+chmod 744 prepare.sh
 ./prepare.sh
 ```
 
-2. run command
+3. run command (For install SteamCMD)
 ```bash
 ./install-package.sh
 ```
 
-3. run command (when first install, updated zomboid)
+4. run command (For install or update Project Zomboid Deticated Server)
 ```bash
 ./update-zomboid.sh
 ```
